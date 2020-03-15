@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FTP" duration-ms="35962" started-at="2020-03-14T12:40:41Z" finished-at="2020-03-14T12:41:17Z">
+    <groups>
+    </groups>
+    <test name="PR_Test_Login" duration-ms="35962" started-at="2020-03-14T12:40:41Z" finished-at="2020-03-14T12:41:17Z">
+      <class name="com.FTP.TestCases.TC_BookTicket_001">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:com.FTP.TestCases.TC_BookTicket_001@2f686d1f]" name="testBeforeSuite" is-config="true" duration-ms="15" started-at="2020-03-14T12:40:41Z" finished-at="2020-03-14T12:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.FTP.TestCases.TC_BookTicket_001@2f686d1f]" name="Setup" is-config="true" duration-ms="22637" started-at="2020-03-14T12:40:41Z" finished-at="2020-03-14T12:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="PR_Test_BookTicket()[pri:2, instance:com.FTP.TestCases.TC_BookTicket_001@2f686d1f]" name="PR_Test_BookTicket" duration-ms="12722" started-at="2020-03-14T12:41:04Z" finished-at="2020-03-14T12:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PR_Test_BookTicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FTP.TestCases.TC_BookTicket_001@2f686d1f]" name="tearDown" is-config="true" duration-ms="544" started-at="2020-03-14T12:41:16Z" finished-at="2020-03-14T12:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:com.FTP.TestCases.TC_BookTicket_001@2f686d1f]" name="testAfterSuite" is-config="true" duration-ms="1" started-at="2020-03-14T12:41:17Z" finished-at="2020-03-14T12:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- com.FTP.TestCases.TC_BookTicket_001 -->
+    </test> <!-- PR_Test_Login -->
+  </suite> <!-- FTP -->
+</testng-results>

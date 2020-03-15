@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FinalTestProject]">
+  <listeners>
+    <listener class-name="com.FTP.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TestLogin(failed)">
+    <classes>
+      <class name="com.FTP.TestCases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.FTP.TestCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [FinalTestProject] -->

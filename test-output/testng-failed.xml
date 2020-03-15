@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FTP]">
+  <test thread-count="5" name="PR_Test_Login(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.FTP.TestCases.TC_BookTicket_001">
+        <methods>
+          <include name="testBeforeSuite"/>
+          <include name="testAfterSuite"/>
+          <include name="PR_Test_BookTicket"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.FTP.TestCases.TC_BookTicket_001 -->
+    </classes>
+  </test> <!-- PR_Test_Login(failed) -->
+</suite> <!-- Failed suite [FTP] -->
