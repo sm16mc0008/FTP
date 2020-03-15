@@ -3,9 +3,6 @@
 
 <suite name="FTP">
 
-	
-	
-	
 	<test name="PR_Test_Login">
 		<parameter name="browser" value="chrome" />
 		<classes>
