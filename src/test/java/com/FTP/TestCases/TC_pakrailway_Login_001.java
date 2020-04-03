@@ -17,7 +17,7 @@ public class TC_pakrailway_Login_001 extends BaseClass {
 		logger.info("Test Paistan Railway URL is hit");
 		
 		// url afterlogin website
-	
+		test = extent.createTest("PR_Test_Login");
 		Pakrailwaylogin paklogin = new Pakrailwaylogin(driver);
 		
 		paklogin.inputMobile("923029232918");

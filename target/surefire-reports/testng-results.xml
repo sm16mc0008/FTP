@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FTP" duration-ms="56055" started-at="2020-03-21T16:08:17Z" finished-at="2020-03-21T16:09:13Z">
+  <suite name="FTP" duration-ms="21128" started-at="2020-04-03T15:37:52Z" finished-at="2020-04-03T15:38:13Z">
     <groups>
     </groups>
-    <test name="PR_Test_Login" duration-ms="56055" started-at="2020-03-21T16:08:17Z" finished-at="2020-03-21T16:09:13Z">
+    <test name="PR_Test_Login" duration-ms="21128" started-at="2020-04-03T15:37:52Z" finished-at="2020-04-03T15:38:13Z">
       <class name="com.FTP.TestCases.TC_pakrailway_Login_001">
-        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@1a407d53]" name="testBeforeSuite" is-config="true" duration-ms="24" started-at="2020-03-21T16:08:17Z" finished-at="2020-03-21T16:08:17Z">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="testBeforeSuite" is-config="true" duration-ms="37" started-at="2020-04-03T15:37:52Z" finished-at="2020-04-03T15:37:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBeforeSuite -->
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@1a407d53]" name="Setup" is-config="true" duration-ms="22187" started-at="2020-03-21T16:08:17Z" finished-at="2020-03-21T16:08:40Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="setExtent" is-config="true" duration-ms="296" started-at="2020-04-03T15:37:52Z" finished-at="2020-04-03T15:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="setup" is-config="true" duration-ms="11315" started-at="2020-04-03T15:37:52Z" finished-at="2020-04-03T15:38:04Z">
           <params>
             <param index="0">
               <value>
@@ -21,41 +25,39 @@
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="Setup" is-config="true" duration-ms="80" started-at="2020-04-03T15:38:04Z" finished-at="2020-04-03T15:38:04Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="PR_Test_Login()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@1a407d53]" name="PR_Test_Login" duration-ms="9618" started-at="2020-03-21T16:08:40Z" finished-at="2020-03-21T16:08:49Z">
+        <test-method status="PASS" signature="PR_Test_Login()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="PR_Test_Login" duration-ms="8605" started-at="2020-04-03T15:38:04Z" finished-at="2020-04-03T15:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PR_Test_Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@1a407d53]" name="tearDown" is-config="true" duration-ms="1136" started-at="2020-03-21T16:08:49Z" finished-at="2020-03-21T16:08:50Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="tearDown" is-config="true" duration-ms="16" started-at="2020-04-03T15:38:12Z" finished-at="2020-04-03T15:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PR_Test_Login status=SUCCESS method=TC_pakrailway_Login_001.PR_Test_Login()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@1a407d53]" name="testAfterSuite" is-config="true" duration-ms="1" started-at="2020-03-21T16:09:14Z" finished-at="2020-03-21T16:09:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-04-03T15:38:12Z" finished-at="2020-04-03T15:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="AfterTest" is-config="true" duration-ms="676" started-at="2020-04-03T15:38:12Z" finished-at="2020-04-03T15:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:com.FTP.TestCases.TC_pakrailway_Login_001@dfd3711]" name="testAfterSuite" is-config="true" duration-ms="0" started-at="2020-04-03T15:38:13Z" finished-at="2020-04-03T15:38:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAfterSuite -->
       </class> <!-- com.FTP.TestCases.TC_pakrailway_Login_001 -->
-      <class name="com.FTP.TestCases.TC_BookTicket_001">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.FTP.TestCases.TC_BookTicket_001@3d8c7aca]" name="Setup" is-config="true" duration-ms="12282" started-at="2020-03-21T16:08:50Z" finished-at="2020-03-21T16:09:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="PR_Test_BookTicket()[pri:2, instance:com.FTP.TestCases.TC_BookTicket_001@3d8c7aca]" name="PR_Test_BookTicket" duration-ms="6607" started-at="2020-03-21T16:09:03Z" finished-at="2020-03-21T16:09:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PR_Test_BookTicket -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FTP.TestCases.TC_BookTicket_001@3d8c7aca]" name="tearDown" is-config="true" duration-ms="4147" started-at="2020-03-21T16:09:09Z" finished-at="2020-03-21T16:09:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.FTP.TestCases.TC_BookTicket_001 -->
     </test> <!-- PR_Test_Login -->
   </suite> <!-- FTP -->
 </testng-results>

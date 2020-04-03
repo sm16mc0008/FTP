@@ -7,7 +7,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.FTP.TestCases.TC_pakrailway_Login_001"></class>
-			<class name="com.FTP.TestCases.TC_BookTicket_001"></class>
+			
 			
 		</classes>
 	</test>
