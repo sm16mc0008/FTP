@@ -20,7 +20,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseClass {
+public abstract class BaseClass {
 
 	ReadConfig objReadConfig = new ReadConfig();
 	
